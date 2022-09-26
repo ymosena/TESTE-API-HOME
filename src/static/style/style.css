@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    color: #B71258;
+    background: #EBEBEB;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    margin-left: 3%;
+    width: 100%;
+    max-width: 2000px;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: whitesmoke;
+}
+.nav{
+    width: 100%;;
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+    justify-content: flex-start;
+    padding: 10px ;
+}
+
+.logo{
+   width: 1.8%;
+   height: 1%;
+}
+.ola{
+    margin-right:50%;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    column-gap: 3rem;
+}
+.nav-link{
+    font-size: 1.3rem;
+    padding: 10px 8px;
+    border-radius: 0.2rem;
+    color: #B71258;
+}
+.nav-link:hover{
+    color:#B71258;
+    background:#E4E4E4 ;
+    transition: 0.3s all linear;
+}
+.bx{
+    font-size: 2.3rem;
+    padding: 10px;
+    border-radius:0.5rem;
+    color: #B71258;
+    background: whitesmoke;
+}
+.bx:hover{
+    color: #B71258;
+    background:#EBEBEB; 
+    transition: 0.3s all linear;
+}
+.extrato{
+    background: whitesmoke;
+    width: 450px;
+    margin-top:8%;
+    margin-left: 5%;
+    padding:30px;
+    border-radius: 20px;
+}
+.scroll-div{
+    width: 400px;
+    background: whitesmoke;
+    height: 550px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.scroll-object{
+    color: #B71258;
+    font-size: 19px;
+    padding: 20px;
+
+}
