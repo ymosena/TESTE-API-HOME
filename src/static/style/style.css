@@ -52,7 +52,8 @@ header{
 .navbar{
     display: flex;
     align-items: center;
-    column-gap: 3rem;
+    column-gap: 2rem;
+    padding-left: 13%;
 }
 .nav-link{
     font-size: 1.3rem;
@@ -76,6 +77,9 @@ header{
     color: #B71258;
     background:#EBEBEB; 
     transition: 0.3s all linear;
+}
+.menu-content{
+    display: flex;
 }
 .extrato{
     background: whitesmoke;
