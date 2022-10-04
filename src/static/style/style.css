@@ -121,7 +121,7 @@ li{
     color: #D3E1F5;
 }
 .func:hover{
-    color: #647bff;
+     color: #647bff;
     background:#171b3c ;
     transition: 0.3s all linear;
 }
