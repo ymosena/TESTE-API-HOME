@@ -9,71 +9,39 @@
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <header>
-        <div class="nav container">
-            <div class="logo">
-                <a href="#" class="logo"><img src="../static/img/logorosamenor.png" alt="logo"></a>
-            </div>
-            <div class="ola">
-                <p>Olá,</p>
-                <h3>Yasmin</h3>
-            </div>
-            <ul class="navbar">
-                <li><a href="index.html" class="nav-link"><strong>Menu</strong></a></li>
-                <li><a href="#" class="nav-link"><strong>Sua Conta</strong></a></li>
-                <li> <a href="deposito.html"><i class='bx bx-log-out'></i></a></li>
-            </ul>
-        </div>
-    </header>
     <div class="menu-content">
-        <div class="extrato">
-            <div class="scroll-div">
-                <div class="scroll-object">
-                    EXTRATO <br>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aspernatur repudiandae voluptas doloremque ut vero cum ea inventore fugiat est exercitationem sed eum illum, quae aut ad ipsum debitis temporibus similique non itaque accusantium doloribus. Ex ipsum dolore, facere magni dicta sed, cum doloribus numquam provident vero recusandae dolor veritatis saepe aliquam perferendis eveniet minima placeat dignissimos consectetur. Explicabo, cumque animi, mollitia in ipsa ab, ea eaque repellendus fugit facilis sint delectus id quod nisi eveniet blanditiis est voluptatum accusantium? Porro, commodi architecto laudantium, odio, harum officiis minima temporibus voluptatem voluptatum dolorem laboriosam sit. Exercitationem error atque odio, aspernatur provident ipsum, recusandae alias eligendi consequuntur earum molestias voluptates perspiciatis, fugit repellendus doloremque? Inventore, quas eligendi ipsum architecto quasi consequuntur delectus. Omnis quas dignissimos quam distinctio corporis tempore placeat molestias enim veritatis saepe reprehenderit quos ut delectus nemo ipsa quasi perspiciatis fuga, dolor, soluta, error amet illo. Obcaecati mollitia reiciendis, non ipsa incidunt corporis nihil asperiores quae id aspernatur consequuntur sapiente voluptatem perferendis adipisci officia vitae illo pariatur ab? Quae facilis, accusantium aliquam vitae nemo odio repudiandae ipsum dolorem, quidem soluta nostrum sunt itaque vero illum sed rerum eveniet! Excepturi sit ut pariatur ipsum distinctio doloribus a sed itaque porro in?
-                </div>
-            </div>
-        </div>   
-            <div class="funcoes">
-                <div class="funcoes-content">
-                    <div class="funcoes-box">
-                        <a href="#">
-                            <div class="func-elementos">
-                                <div class="func-text"></div>
-                                    <img src="../static/img/Deposito.svg" class="menu-img">
-                                    <h2>SAQUE</h2>
-                                    <p>
-                                    </p>
-                                </div>
-                            </div>
-                        </a>   
-                    </div> 
-                    <div class="funcoes-box">
-                        <a href="#">
-                            <div class="funcoes-box">
-                                <div class="func-elementos">
-                                    <img src="../static/img/Transferencia.svg" class="menu-img">
-                                    <div class="func-text">
-                                        <h2>TRANSFIRA</h2>
-                                        <p>Sem complicações, transfira o seu dinheiro para outra conta.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
+        <div class="conta">
+            <div class="left-panels">
+                <div class="mensagem">
+                    <div class="m-img">
+                        <img src="../static/img/assistente.svg" alt="">
                     </div>
-                    <div class="funcoes-box">
-                        <a href="#">
-                            <div class="funcoes-box">
-                                <div class="func-elementos">
-                                    <img src="../static/img/bank.svg" class="menu-img">
-                                    <h2>DEPOSITE</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+                        <div class="m-text">
+                            <h2>Olá, Yasmin</h2>
+                            <h3>Acompanhe o status da sua conta:</h3>
+                        </div>
+                </div> 
+                    <div class="saldo">
+                        <h3>Seu Saldo</h3>
+                        <label>R$ {{saldo}}</label>
+                    </div>  
+                    <div class="func">
+                        <a href="#">SAQUE</a>
+                        <a href="#">DEPOSITE</a>
+                        <a href="#">TRANSFIRA</a>
+                    </div>     
             </div>
-        </div>
+            <div class="right-panels">
+                <div class="extrato">
+                    <h2>Extrato</h2>
+                    <div class="scroll-div">
+                        <div class="scroll-object">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aspernatur repudiandae voluptas doloremque ut vero cum ea inventore fugiat est exercitationem sed eum illum, quae aut ad ipsum debitis temporibus similique non itaque accusantium doloribus. Ex ipsum dolore, facere magni dicta sed, cum doloribus numquam provident vero recusandae dolor veritatis saepe aliquam perferendis eveniet minima placeat dignissimos consectetur. Explicabo, cumque animi, mollitia in ipsa ab, ea eaque repellendus fugit facilis sint delectus id quod nisi eveniet blanditiis est voluptatum accusantium? Porro, commodi architecto laudantium, odio, harum officiis minima temporibus voluptatem voluptatum dolorem laboriosam sit. Exercitationem error atque odio, aspernatur provident ipsum, recusandae alias eligendi consequuntur earum molestias voluptates perspiciatis, fugit repellendus doloremque? Inventore, quas eligendi ipsum architecto quasi consequuntur delectus. Omnis quas dignissimos quam distinctio corporis tempore placeat molestias enim veritatis saepe reprehenderit quos ut delectus nemo ipsa quasi perspiciatis fuga, dolor, soluta, error amet illo. Obcaecati mollitia reiciendis, non ipsa incidunt corporis nihil asperiores quae id aspernatur consequuntur sapiente voluptatem perferendis adipisci officia vitae illo pariatur ab? Quae facilis, accusantium aliquam vitae nemo odio repudiandae ipsum dolorem, quidem soluta nostrum sunt itaque vero illum sed rerum eveniet! Excepturi sit ut pariatur ipsum distinctio doloribus a sed itaque porro in?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam aut illum ex temporibus rerum dolore, autem aliquid obcaecati, consequuntur neque eos distinctio? Expedita corrupti, voluptatem odit incidunt adipisci quos repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam harum est similique rem voluptatum nulla quasi, fuga adipisci rerum blanditiis sapiente, atque perferendis sunt quisquam alias laudantium velit quis quia!
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div>  
     </div>
 </body>
 </html>

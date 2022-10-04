@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 
 *{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Sora', sans-serif;
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
 body{
-    color: #B71258;
-    background: #EBEBEB;
+    color: #D3E1F5;
+    background: #050624;
 }
 img{
     width: 100%;
@@ -23,48 +23,19 @@ li{
     margin-left: 3%;
     width: 100%;
     max-width: 2000px;
+    display: grid;
 }
-header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 100;
-    background-color: whitesmoke;
+.left-panels{
+    display: grid;
+    justify-content: space-between;
+    gap: 2rem;
 }
-.nav{
-    width: 100%;;
-    display: flex;
-    align-items: center;
-    column-gap: 2rem;
-    justify-content: flex-start;
-    padding: 10px ;
+.conta{
+    display: grid;
 }
-
-.logo{
+/* .logo{
    width: 1.9%;
    height: 1%;
-}
-.ola{
-    margin-right:50%;
-    
-}
-.navbar{
-    display: flex;
-    align-items: center;
-    column-gap: 2rem;
-    padding-left: 13%;
-}
-.nav-link{
-    font-size: 1.3rem;
-    padding: 10px 8px;
-    border-radius: 0.2rem;
-    color: #B71258;
-}
-.nav-link:hover{
-    color:#B71258;
-    background:#E4E4E4 ;
-    transition: 0.3s all linear;
 }
 .bx{
     font-size: 2.3rem;
@@ -77,70 +48,92 @@ header{
     color: #B71258;
     background:#EBEBEB; 
     transition: 0.3s all linear;
-}
+} */
 .menu-content{
+    display: grid;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+}
+.mensagem{
     display: flex;
-    column-gap: 10%;
+
+}
+.m-img{
+    width: 52px;
+    height: 57px;
+    left: 207px;
+    top: 99px;
+    margin-right: 20px;
+}
+.saldo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 40px 16px 16px;
+    gap: 8px;
+    width: 300px;
+    height: 98px;
+    background: #1F203B;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:  linear-gradient(40deg, #E36EA0,  #B71258  );
+}
+.saldo h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #D3E1F5;
+}
+.saldo label{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    color: #D3E1F5;
 }
 .extrato{
-    background: whitesmoke;
-    width: 500px;
+    align-items: center;
+    background: #050624;
+    width: 700px;
     margin-top:5%;
-    margin-left: 5%;
     padding:30px;
     border-radius: 20px;
 }
 .scroll-div{
-    width: 450px;
-    background: whitesmoke;
-    height: 620px;
+    width: 650px;
+    background: #050624;
+    height: 700px;
     overflow: hidden;
     overflow-y: scroll;
 }
 .scroll-object{
-    color: #B71258;
+    color: #D3E1F5;
     font-size: 19px;
     padding: 20px;
+}
 
+.func{
+    color: #D3E1F5;
 }
-.funcoes-content{
+.func:hover{
+    color: #647bff;
+    background:#171b3c ;
+    transition: 0.3s all linear;
+}
 
-    display: grid;
-    justify-content: space-between;
-    gap: 1rem;
-    margin-top:30%;
-}
-.func-elementos{
-    width: 400px;
-    height: 200px;
-    border-radius: 20px;
-    background-color: whitesmoke; 
-    color: #3F3D56;
-}
-.func-elementos{
-    display:flex;
-    margin-top: 20px;
-    color: #3F3D56(37, 37, 37);
-}
-.func-text{
-    margin-top: 10%;
-    font-size: 1rem;
-}
-.menu-img{
-    width: 50%;
-    height:100%;
-    object-fit: cover;
-    object-position: center;
-}
 .scroll-div::-webkit-scrollbar{
     width: 1em;
    
 }
 .scroll-div::-webkit-scrollbar-track{
-    background-color: #EBEBEB;
-    border-radius: 20px;
+    background-color:#050624;
 }
 .scroll-div::-webkit-scrollbar-thumb{
-    background-color:#B71258;
-    border-radius: 20px;
+    background-color:#050624;
+
 }
